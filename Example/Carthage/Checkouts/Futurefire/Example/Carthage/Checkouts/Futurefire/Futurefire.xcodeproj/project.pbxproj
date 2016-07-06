@@ -35,7 +35,7 @@
 		445D2A511D2D82F500C5846A = {
 			isa = PBXGroup;
 			children = (
-				445D2A691D2D85DB00C5846A /* Alamofire.framework */,
+				445D2A6B1D2D86E100C5846A /* Frameworks-iOS */,
 				445D2A681D2D84AE00C5846A /* Futurefire */,
 				445D2A5F1D2D844800C5846A /* Futurefire-iOS */,
 				445D2A5E1D2D844800C5846A /* Products */,
@@ -65,6 +65,14 @@
 				445D2A661D2D849500C5846A /* Futurefire.swift */,
 			);
 			path = Futurefire;
+			sourceTree = "<group>";
+		};
+		445D2A6B1D2D86E100C5846A /* Frameworks-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				445D2A691D2D85DB00C5846A /* Alamofire.framework */,
+			);
+			name = "Frameworks-iOS";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
