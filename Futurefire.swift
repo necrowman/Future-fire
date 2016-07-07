@@ -12,6 +12,44 @@ import Future
 
 public extension Alamofire.Request {
     
+    /// Returns **future** for Alamofire function **response**
+    ///
+    /// Can observe such **states** as:
+    ///
+    /// - **onSuccess**
+    /// - **onFailure**
+    /// - **onComplete**
+    ///
+    /// ---
+    ///
+    /// Additional information
+    /// ======================
+    ///
+    /// Code
+    /// ----
+    ///
+    /// Here is simple example of **usage code**:
+    ///
+    ///     let correctURLBase = "https://raw.githubusercontent.com/necrowman/CRLAlamofireFuture/master/TestSources/"
+    ///     let urlString = "\(correctURLBase)simpleTestURL.txt"
+    ///     let future = Alamofire.request(.GET, urlString).response()
+    ///     future.onSuccess { value in
+    ///         print("Value => ", value)
+    ///     }
+    ///     future.onFailure { (error) in
+    ///         print("Failed with error: ", error)
+    ///     }
+    ///
+    /// Links & Images
+    /// --------------
+    ///
+    /// See more info at [Futurefire](https://github.com/necrowman/Futurefire)!
+    ///
+    /// - requires: Alamofire, Future
+    ///
+    /// - parameters:
+    ///   - There are no needed parameters
+    /// - returns: Future<NSData?>
     public func response() -> Future<NSData?> {
         let p = Promise<NSData?>()
         self.response { (request: NSURLRequest?, response: NSHTTPURLResponse?, data: NSData?, error: NSError?) in
@@ -90,7 +128,7 @@ public class Futurefire {
 //        let urlString = "\(correctURLBase)simpleTestURL.txt"
 //        let future = Alamofire.request(.GET, urlString).response()
 //        future.onSuccess { value in
-//            print("Falue => ", value)
+//            print("Value => ", value)
 //        }
 //        future.onFailure { (error) in
 //            print("Failed with error: ", error)
