@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4438E0D61D2E67DD00E59F44 /* Futurefire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4438E0D51D2E67DD00E59F44 /* Futurefire.swift */; };
 		445D2A611D2D844800C5846A /* Futurefire-iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 445D2A601D2D844800C5846A /* Futurefire-iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		445D2A671D2D849500C5846A /* Futurefire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445D2A661D2D849500C5846A /* Futurefire.swift */; };
 		445D2A6A1D2D85DB00C5846A /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 445D2A691D2D85DB00C5846A /* Alamofire.framework */; };
 		445D2A731D2D896200C5846A /* Boilerplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 445D2A6C1D2D896200C5846A /* Boilerplate.framework */; };
 		445D2A741D2D896200C5846A /* Event.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 445D2A6D1D2D896200C5846A /* Event.framework */; };
@@ -20,10 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4438E0D51D2E67DD00E59F44 /* Futurefire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Futurefire.swift; sourceTree = "<group>"; };
 		445D2A5D1D2D844800C5846A /* Futurefire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Futurefire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		445D2A601D2D844800C5846A /* Futurefire-iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Futurefire-iOS.h"; sourceTree = "<group>"; };
 		445D2A621D2D844800C5846A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		445D2A661D2D849500C5846A /* Futurefire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Futurefire.swift; sourceTree = "<group>"; };
 		445D2A691D2D85DB00C5846A /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = "<group>"; };
 		445D2A6C1D2D896200C5846A /* Boilerplate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Boilerplate.framework; sourceTree = "<group>"; };
 		445D2A6D1D2D896200C5846A /* Event.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Event.framework; sourceTree = "<group>"; };
@@ -53,11 +53,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4438E0D71D2E67E300E59F44 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				4438E0D51D2E67DD00E59F44 /* Futurefire.swift */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
 		445D2A511D2D82F500C5846A = {
 			isa = PBXGroup;
 			children = (
 				445D2A6B1D2D86E100C5846A /* Frameworks-iOS */,
-				445D2A681D2D84AE00C5846A /* Futurefire */,
+				4438E0D71D2E67E300E59F44 /* Source */,
 				445D2A5F1D2D844800C5846A /* Futurefire-iOS */,
 				445D2A5E1D2D844800C5846A /* Products */,
 			);
@@ -78,14 +86,6 @@
 				445D2A621D2D844800C5846A /* Info.plist */,
 			);
 			path = "Futurefire-iOS";
-			sourceTree = "<group>";
-		};
-		445D2A681D2D84AE00C5846A /* Futurefire */ = {
-			isa = PBXGroup;
-			children = (
-				445D2A661D2D849500C5846A /* Futurefire.swift */,
-			);
-			path = Futurefire;
 			sourceTree = "<group>";
 		};
 		445D2A6B1D2D86E100C5846A /* Frameworks-iOS */ = {
@@ -181,7 +181,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				445D2A671D2D849500C5846A /* Futurefire.swift in Sources */,
+				4438E0D61D2E67DD00E59F44 /* Futurefire.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,7 +248,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = "Futurefire-iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -305,7 +305,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = "Futurefire-iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "CrossroadLabs.Futurefire-iOS";

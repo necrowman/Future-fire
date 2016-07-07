@@ -8,6 +8,7 @@
 
 import Foundation
 import Alamofire
+import Future
 
 public class Futurefire {
     
