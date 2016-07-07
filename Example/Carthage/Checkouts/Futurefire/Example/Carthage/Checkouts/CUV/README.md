@@ -1,2 +1,0 @@
-# CUV
-libuv swift module
