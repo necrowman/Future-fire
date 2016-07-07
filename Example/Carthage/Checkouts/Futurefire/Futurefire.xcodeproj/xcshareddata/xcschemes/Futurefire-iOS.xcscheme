@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "445D2A5C1D2D844800C5846A"
-               BuildableName = "Futurefire-iOS.framework"
+               BuildableName = "Futurefire.framework"
                BlueprintName = "Futurefire-iOS"
                ReferencedContainer = "container:Futurefire.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "445D2A5C1D2D844800C5846A"
-            BuildableName = "Futurefire-iOS.framework"
+            BuildableName = "Futurefire.framework"
             BlueprintName = "Futurefire-iOS"
             ReferencedContainer = "container:Futurefire.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "445D2A5C1D2D844800C5846A"
-            BuildableName = "Futurefire-iOS.framework"
+            BuildableName = "Futurefire.framework"
             BlueprintName = "Futurefire-iOS"
             ReferencedContainer = "container:Futurefire.xcodeproj">
          </BuildableReference>
