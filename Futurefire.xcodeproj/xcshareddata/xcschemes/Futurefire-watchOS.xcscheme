@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4438E0DC1D2E6E7C00E59F44"
-               BuildableName = "Futurefire-watchOS.framework"
+               BuildableName = "Futurefire.framework"
                BlueprintName = "Futurefire-watchOS"
                ReferencedContainer = "container:Futurefire.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4438E0DC1D2E6E7C00E59F44"
-            BuildableName = "Futurefire-watchOS.framework"
+            BuildableName = "Futurefire.framework"
             BlueprintName = "Futurefire-watchOS"
             ReferencedContainer = "container:Futurefire.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4438E0DC1D2E6E7C00E59F44"
-            BuildableName = "Futurefire-watchOS.framework"
+            BuildableName = "Futurefire.framework"
             BlueprintName = "Futurefire-watchOS"
             ReferencedContainer = "container:Futurefire.xcodeproj">
          </BuildableReference>
