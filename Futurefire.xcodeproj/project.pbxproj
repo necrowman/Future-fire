@@ -28,6 +28,17 @@
 		4438E1121D2E753200E59F44 /* Future.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4438E10A1D2E753200E59F44 /* Future.framework */; };
 		4438E1131D2E753200E59F44 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4438E10B1D2E753200E59F44 /* Result.framework */; };
 		4438E1141D2E753200E59F44 /* RunLoop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4438E10C1D2E753200E59F44 /* RunLoop.framework */; };
+		4438E11E1D2E79B800E59F44 /* Futurefire-Mac.h in Headers */ = {isa = PBXBuildFile; fileRef = 4438E11D1D2E79B800E59F44 /* Futurefire-Mac.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4438E12C1D2E81C500E59F44 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4438E1231D2E81C500E59F44 /* Alamofire.framework */; };
+		4438E12D1D2E81C500E59F44 /* Boilerplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4438E1241D2E81C500E59F44 /* Boilerplate.framework */; };
+		4438E12E1D2E81C500E59F44 /* Event.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4438E1251D2E81C500E59F44 /* Event.framework */; };
+		4438E12F1D2E81C500E59F44 /* ExecutionContext.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4438E1261D2E81C500E59F44 /* ExecutionContext.framework */; };
+		4438E1301D2E81C500E59F44 /* Foundation3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4438E1271D2E81C500E59F44 /* Foundation3.framework */; };
+		4438E1311D2E81C500E59F44 /* Future.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4438E1281D2E81C500E59F44 /* Future.framework */; };
+		4438E1321D2E81C500E59F44 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4438E1291D2E81C500E59F44 /* Result.framework */; };
+		4438E1331D2E81C500E59F44 /* RunLoop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4438E12A1D2E81C500E59F44 /* RunLoop.framework */; };
+		4438E1341D2E81C500E59F44 /* UV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4438E12B1D2E81C500E59F44 /* UV.framework */; };
+		4438E1361D2E81EC00E59F44 /* Futurefire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4438E0D51D2E67DD00E59F44 /* Futurefire.swift */; };
 		445D2A611D2D844800C5846A /* Futurefire-iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 445D2A601D2D844800C5846A /* Futurefire-iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		445D2A6A1D2D85DB00C5846A /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 445D2A691D2D85DB00C5846A /* Alamofire.framework */; };
 		445D2A731D2D896200C5846A /* Boilerplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 445D2A6C1D2D896200C5846A /* Boilerplate.framework */; };
@@ -63,6 +74,18 @@
 		4438E10A1D2E753200E59F44 /* Future.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Future.framework; sourceTree = "<group>"; };
 		4438E10B1D2E753200E59F44 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Result.framework; sourceTree = "<group>"; };
 		4438E10C1D2E753200E59F44 /* RunLoop.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RunLoop.framework; sourceTree = "<group>"; };
+		4438E11B1D2E79B800E59F44 /* Futurefire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Futurefire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4438E11D1D2E79B800E59F44 /* Futurefire-Mac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Futurefire-Mac.h"; sourceTree = "<group>"; };
+		4438E11F1D2E79B800E59F44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4438E1231D2E81C500E59F44 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = "<group>"; };
+		4438E1241D2E81C500E59F44 /* Boilerplate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Boilerplate.framework; sourceTree = "<group>"; };
+		4438E1251D2E81C500E59F44 /* Event.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Event.framework; sourceTree = "<group>"; };
+		4438E1261D2E81C500E59F44 /* ExecutionContext.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ExecutionContext.framework; sourceTree = "<group>"; };
+		4438E1271D2E81C500E59F44 /* Foundation3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Foundation3.framework; sourceTree = "<group>"; };
+		4438E1281D2E81C500E59F44 /* Future.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Future.framework; sourceTree = "<group>"; };
+		4438E1291D2E81C500E59F44 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Result.framework; sourceTree = "<group>"; };
+		4438E12A1D2E81C500E59F44 /* RunLoop.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RunLoop.framework; sourceTree = "<group>"; };
+		4438E12B1D2E81C500E59F44 /* UV.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UV.framework; sourceTree = "<group>"; };
 		445D2A5D1D2D844800C5846A /* Futurefire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Futurefire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		445D2A601D2D844800C5846A /* Futurefire-iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Futurefire-iOS.h"; sourceTree = "<group>"; };
 		445D2A621D2D844800C5846A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -104,6 +127,22 @@
 				4438E1121D2E753200E59F44 /* Future.framework in Frameworks */,
 				4438E1131D2E753200E59F44 /* Result.framework in Frameworks */,
 				4438E1141D2E753200E59F44 /* RunLoop.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4438E1171D2E79B800E59F44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4438E12C1D2E81C500E59F44 /* Alamofire.framework in Frameworks */,
+				4438E12D1D2E81C500E59F44 /* Boilerplate.framework in Frameworks */,
+				4438E12E1D2E81C500E59F44 /* Event.framework in Frameworks */,
+				4438E12F1D2E81C500E59F44 /* ExecutionContext.framework in Frameworks */,
+				4438E1301D2E81C500E59F44 /* Foundation3.framework in Frameworks */,
+				4438E1311D2E81C500E59F44 /* Future.framework in Frameworks */,
+				4438E1321D2E81C500E59F44 /* Result.framework in Frameworks */,
+				4438E1331D2E81C500E59F44 /* RunLoop.framework in Frameworks */,
+				4438E1341D2E81C500E59F44 /* UV.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,9 +222,36 @@
 			path = Carthage/Build/tvOS;
 			sourceTree = "<group>";
 		};
+		4438E11C1D2E79B800E59F44 /* Futurefire-Mac */ = {
+			isa = PBXGroup;
+			children = (
+				4438E11D1D2E79B800E59F44 /* Futurefire-Mac.h */,
+				4438E11F1D2E79B800E59F44 /* Info.plist */,
+			);
+			path = "Futurefire-Mac";
+			sourceTree = "<group>";
+		};
+		4438E1351D2E81D200E59F44 /* Frameworks-Mac */ = {
+			isa = PBXGroup;
+			children = (
+				4438E1231D2E81C500E59F44 /* Alamofire.framework */,
+				4438E1241D2E81C500E59F44 /* Boilerplate.framework */,
+				4438E1251D2E81C500E59F44 /* Event.framework */,
+				4438E1261D2E81C500E59F44 /* ExecutionContext.framework */,
+				4438E1271D2E81C500E59F44 /* Foundation3.framework */,
+				4438E1281D2E81C500E59F44 /* Future.framework */,
+				4438E1291D2E81C500E59F44 /* Result.framework */,
+				4438E12A1D2E81C500E59F44 /* RunLoop.framework */,
+				4438E12B1D2E81C500E59F44 /* UV.framework */,
+			);
+			name = "Frameworks-Mac";
+			path = Carthage/Build/Mac;
+			sourceTree = "<group>";
+		};
 		445D2A511D2D82F500C5846A = {
 			isa = PBXGroup;
 			children = (
+				4438E1351D2E81D200E59F44 /* Frameworks-Mac */,
 				4438E1151D2E754200E59F44 /* Frameworks-tvOS */,
 				4438E0F61D2E6FB700E59F44 /* Frameworks-watchOS */,
 				445D2A6B1D2D86E100C5846A /* Frameworks-iOS */,
@@ -193,6 +259,7 @@
 				445D2A5F1D2D844800C5846A /* Futurefire-iOS */,
 				4438E0DE1D2E6E7C00E59F44 /* Futurefire-watchOS */,
 				4438E0FD1D2E73AA00E59F44 /* Futurefire-tvOS */,
+				4438E11C1D2E79B800E59F44 /* Futurefire-Mac */,
 				445D2A5E1D2D844800C5846A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -203,6 +270,7 @@
 				445D2A5D1D2D844800C5846A /* Futurefire.framework */,
 				4438E0DD1D2E6E7C00E59F44 /* Futurefire.framework */,
 				4438E0FC1D2E73AA00E59F44 /* Futurefire.framework */,
+				4438E11B1D2E79B800E59F44 /* Futurefire.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -248,6 +316,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4438E0FF1D2E73AA00E59F44 /* Futurefire-tvOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4438E1181D2E79B800E59F44 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4438E11E1D2E79B800E59F44 /* Futurefire-Mac.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +374,24 @@
 			productReference = 4438E0FC1D2E73AA00E59F44 /* Futurefire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		4438E11A1D2E79B800E59F44 /* Futurefire-Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4438E1201D2E79B800E59F44 /* Build configuration list for PBXNativeTarget "Futurefire-Mac" */;
+			buildPhases = (
+				4438E1161D2E79B800E59F44 /* Sources */,
+				4438E1171D2E79B800E59F44 /* Frameworks */,
+				4438E1181D2E79B800E59F44 /* Headers */,
+				4438E1191D2E79B800E59F44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Futurefire-Mac";
+			productName = "Futurefire-Mac";
+			productReference = 4438E11B1D2E79B800E59F44 /* Futurefire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		445D2A5C1D2D844800C5846A /* Futurefire-iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 445D2A651D2D844800C5846A /* Build configuration list for PBXNativeTarget "Futurefire-iOS" */;
@@ -330,6 +424,9 @@
 					4438E0FB1D2E73AA00E59F44 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
+					4438E11A1D2E79B800E59F44 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 					445D2A5C1D2D844800C5846A = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
@@ -350,6 +447,7 @@
 				445D2A5C1D2D844800C5846A /* Futurefire-iOS */,
 				4438E0DC1D2E6E7C00E59F44 /* Futurefire-watchOS */,
 				4438E0FB1D2E73AA00E59F44 /* Futurefire-tvOS */,
+				4438E11A1D2E79B800E59F44 /* Futurefire-Mac */,
 			);
 		};
 /* End PBXProject section */
@@ -363,6 +461,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		4438E0FA1D2E73AA00E59F44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4438E1191D2E79B800E59F44 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -392,6 +497,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4438E1041D2E73B300E59F44 /* Futurefire.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4438E1161D2E79B800E59F44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4438E1361D2E81EC00E59F44 /* Futurefire.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -642,6 +755,130 @@
 			};
 			name = Release;
 		};
+		4438E1211D2E79B800E59F44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				INFOPLIST_FILE = "Futurefire-Mac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "CrossroadLabs.Futurefire-Mac";
+				PRODUCT_NAME = Futurefire;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4438E1221D2E79B800E59F44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				INFOPLIST_FILE = "Futurefire-Mac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "CrossroadLabs.Futurefire-Mac";
+				PRODUCT_NAME = Futurefire;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		445D2A561D2D82F500C5846A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -783,6 +1020,7 @@
 				4438E0E41D2E6E7C00E59F44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4438E1011D2E73AA00E59F44 /* Build configuration list for PBXNativeTarget "Futurefire-tvOS" */ = {
 			isa = XCConfigurationList;
@@ -791,6 +1029,16 @@
 				4438E1031D2E73AA00E59F44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4438E1201D2E79B800E59F44 /* Build configuration list for PBXNativeTarget "Futurefire-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4438E1211D2E79B800E59F44 /* Debug */,
+				4438E1221D2E79B800E59F44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		445D2A551D2D82F500C5846A /* Build configuration list for PBXProject "Futurefire" */ = {
 			isa = XCConfigurationList;

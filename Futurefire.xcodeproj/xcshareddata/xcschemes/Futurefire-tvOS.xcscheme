@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4438E0FB1D2E73AA00E59F44"
-               BuildableName = "Futurefire-tvOS.framework"
+               BuildableName = "Futurefire.framework"
                BlueprintName = "Futurefire-tvOS"
                ReferencedContainer = "container:Futurefire.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4438E0FB1D2E73AA00E59F44"
-            BuildableName = "Futurefire-tvOS.framework"
+            BuildableName = "Futurefire.framework"
             BlueprintName = "Futurefire-tvOS"
             ReferencedContainer = "container:Futurefire.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4438E0FB1D2E73AA00E59F44"
-            BuildableName = "Futurefire-tvOS.framework"
+            BuildableName = "Futurefire.framework"
             BlueprintName = "Futurefire-tvOS"
             ReferencedContainer = "container:Futurefire.xcodeproj">
          </BuildableReference>
