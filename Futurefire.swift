@@ -34,10 +34,10 @@ public extension Alamofire.Request {
     ///     let urlString = "\(correctURLBase)simpleTestURL.txt"
     ///     let future = Alamofire.request(.GET, urlString).response()
     ///     future.onSuccess { value in
-    ///         print("Value => ", value)
+    ///         //process value somehow
     ///     }
     ///     future.onFailure { (error) in
-    ///         print("Failed with error: ", error)
+    ///         //process error somehow
     ///     }
     ///
     /// Links & Images
